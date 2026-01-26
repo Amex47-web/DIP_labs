@@ -1,5 +1,8 @@
 # DIP Labs (Digital Image Processing)
 
+Name:- Ameya Balange
+BT ID:- BT23ECI002
+
 This repository contains a collection of lab experiments for Digital Image Processing (DIP). Each folder corresponds to a specific lab session or topic.
 
 ## Repository Structure
