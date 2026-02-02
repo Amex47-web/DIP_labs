@@ -1,24 +1,33 @@
 # DIP Labs (Digital Image Processing)
 
-Name:- Ameya Balange
-BT ID:- BT23ECI002
+**Name:** Ameya Balange  
+**BT ID:** BT23ECI002
 
-This repository contains a collection of lab experiments for Digital Image Processing (DIP). Each folder corresponds to a specific lab session or topic.
+This repository contains a collection of lab experiments for Digital Image Processing (DIP). Each folder corresponds to a specific lab session, containing MATLAB/Octave scripts, input images, and documentation.
 
 ## Repository Structure
 
 The repository is organized by lab sessions:
 
-- **dip_lab1/**: Basic functions and image processing operations.
+- **dip_lab1/**: Basic functions, image reading, grayscale conversion, histogram equalization, and channel extraction.
+- **dip_lab2/**: Additional image processing experiments and results.
 
-## Experiments
+## Experiments Overview
 
 ### Lab 1: Basic Functions & Processing
-- **File**: `dip_lab1/basic_functions_processsing.m`
-- **Description**: Introduction to basic image processing functions in MATLAB/Octave.
+- **Script**: `dip_lab1/basic_functions_processsing.m`
+- **Key Concepts**:
+  - Image reading and display (`imread`, `imshow`)
+  - Grayscale conversion (`rgb2gray`)
+  - Histogram Equalization (`histeq`)
+  - Binary Thresholding
+  - RGB Channel Extraction
+
+### Lab 2: Experiment 2
+- **Script**: `dip_lab2/lab2.m`
 - **Resources**:
-  - `image1.jpeg`: Sample image used for processing.
-  - `pdf.pdf`: Lab documentation/report.
+  - `lab2.pdf`: Lab report/documentation.
+  - Test images (e.g., Cameraman) and result files.
 
 ## How to Run
 
@@ -26,16 +35,17 @@ The repository is organized by lab sessions:
    ```bash
    git clone https://github.com/Amex47-web/DIP_labs.git
    ```
-2. Navigate to the specific lab folder (e.g., `dip_lab1`).
-3. Open the `.m` scripts in MATLAB or Octave to run the experiments.
+2. Open MATLAB or Octave.
+3. Navigate to the specific lab folder (e.g., `dip_lab1`).
+4. Run the `.m` script file.
 
 ## Future Experiments
 
-New labs will be added sequentially. Check back for updates on:
+New labs will be added sequentially covering topics such as:
 - Image Enhancement
 - Filtering
 - Segmentation
-- And more...
+- Morphological Operations
 
 ---
-*Maintained by Amex47-web*
+*Maintained by Ameya Balange*
